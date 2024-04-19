@@ -11,7 +11,7 @@ import modbus_tk.modbus_tcp as modbus_tcp
 from numpy import *
 import check_tcp as ch
 LOGGER = modbus_tk.utils.create_logger("console")
-import rouletee_select as rou_select
+import select as rou_select
 import self_adaption as adaption
 torch.manual_seed(3407)
 num_data = 0
@@ -412,7 +412,7 @@ def change_err_arr(change_arr3,sign_arr3,number_error,Mun_id):#错误情况下�
     #print("错误",Mun_id,error_factor)
     return change_arr3
 #########################################################################
-def change_rou_arr(change_arr4,sign_num1): #更改轮盘赌的结果 和 适应度值
+def change_rou_arr(change_arr4,sign_num1): #更改选择的结果 和 适应度值
     for x in sign_num1:
         if x==257:
             x=256
@@ -422,7 +422,7 @@ def change_rou_arr(change_arr4,sign_num1): #更改轮盘赌的结果 和 适应�
     # print("增加的字节",change_arr4)
     return change_arr4
 
-def change_rou_arr1(sign_num1,id,memory_arr,fc): #更改轮盘赌的结果 和 适应度值
+def change_rou_arr1(sign_num1,id,memory_arr,fc): #更改的结果 和 适应度值
     for x in sign_num1:
         if x==257:
             x=256
