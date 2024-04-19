@@ -7,7 +7,20 @@ TRM.py 训练模型和生成测试用例的文件
 
 check_tcp.py 判断Modbus TCP协议是否符合协议规范
 
+select.py 选择变异字节
+
+self_adaption 字节变异概率调整
+
 注意，在TRM.py中我们引用了modbus_tk库。我们更改了modbus_tk\modbus.py文件。请将文件中的modbus.py与modbus_tk\modbus.py替换
 
-在check_tcp.py文件中，我们给出判断测试用例是否符合Modbus TCP协议规范的代码
+
+TRM.py - Training model and generating test cases file
+
+check_tcp.py - Checking if Modbus TCP protocol complies with protocol specifications
+
+select.py - Selecting mutated bytes
+
+self_adaption - Adjusting byte mutation probability
+
+Note that in TRM.py, we referenced the modbus_tk library. We modified the modbus_tk\modbus.py file. Please replace the modbus.py in the file with modbus_tk\modbus.py.
 
