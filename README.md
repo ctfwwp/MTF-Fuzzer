@@ -11,4 +11,3 @@ check_tcp.py 判断Modbus TCP协议是否符合协议规范
 
 在check_tcp.py文件中，我们给出判断测试用例是否符合Modbus TCP协议规范的代码
 
-
