@@ -38,11 +38,11 @@ other fuzzer:
 
 PSM Fuzzer: 
 
-  地址：https://github.com/ctfwwp/PSM-Fuzzer
+  https://github.com/ctfwwp/PSM-Fuzzer
   
 Fuzzy-RNN：
 
-  地址：https://github.com/ctfwwp/Fuzzy-RNN
+  https://github.com/ctfwwp/Fuzzy-RNN
   
 Boofuzz
 
