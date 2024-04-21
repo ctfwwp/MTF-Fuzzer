@@ -1,5 +1,5 @@
 # MTF-Fuzzer
-模糊测试（fuzzing）- MTF-Fuzzer
+1. 模糊测试（fuzzing）- MTF-Fuzzer
 
 一个模糊测试工具
 
@@ -34,7 +34,7 @@ self_adaption - Adjusting byte mutation probability
 
 Note that in TRM.py, we referenced the modbus_tk library. We modified the modbus_tk\modbus.py file. Please replace the modbus.py in the file with modbus_tk\modbus.py.
 
-other fuzzer:
+2. other fuzzer:
 
 PSM Fuzzer: 
 
