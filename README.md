@@ -28,6 +28,8 @@ self_adaption 字节变异概率调整
 
 TRM.py - Training model and generating test cases file
 
+Modbus_tcp.txt training dataset
+
 check_tcp.py - Checking if Modbus TCP protocol complies with protocol specifications
 
 select.py - Selecting mutated bytes
